@@ -1,0 +1,182 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+</style>
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	padding: 10px 60px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.nav {
+	float: right;
+}
+
+.nav ul {
+	list-style-type: none;
+}
+
+.nav ul li {
+	float: left;
+	padding: 5px 20px;
+}
+
+.nav ul li a {
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #333;
+}
+
+.nav ul li a:hover {
+	box-shadow:  0px 1px 3px 6px #ddd;
+}
+
+.section-text {
+	text-align: center;
+}
+
+.section-text h1 {
+	color: #19305D;
+	font-size: 45px;
+	font-family: 'Roboto', sans-serif;	
+	margin: 0px;
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+
+.section-text span {
+	color: #0088FF;
+	font-size: 43px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.section-text p {
+	color: #666;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.img-area img {
+	display: block;
+	margin: 0 auto;
+	max-height: 500px;
+}
+
+.successfuly-area {
+	width: 100%;
+}
+
+.content-wrapper {
+	padding-left: 300px;
+	display: flex;
+	padding-top: 60px;
+}
+
+.content-1 {
+	width: 30%;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+.content-1 h1 {
+	color: #F15364;
+	font-size: 45px;
+	margin: 0;
+}
+
+.content-1 p {
+	line-height: 25px;
+	margin: 0;
+	padding-top: 30px;
+}
+
+.content-2 {
+	width: 20%;
+	padding-left: 90px;
+}
+
+.content-2 h1 {
+	font-size: 45px;
+	margin: 0;
+	color: #19305D;
+}
+
+.wrapper-area {
+	width: 100%;
+	padding-top: 60px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+}
+
+.wrapper p {
+	line-height: 25px;
+}
+
+.wrapper-1 {
+	background: #FDEBED;
+	width: 33.33%;
+	padding: 30px 60px;
+	margin: 0px 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+.wrapper-1 img {
+	max-width: 200px;
+}
+
+.wrapper-2 {
+	background: #EBF9F4;
+	width: 33.33%;
+	padding: 30px 60px;
+	margin: 0px 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+.wrapper-2 img {
+	max-width: 200px;
+}
+
+.wrapper-3 {
+	background: #FFF7E8;
+	width: 33.33%;
+	padding: 30px 60px;
+	margin: 0px 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+.wrapper-3 img {
+	max-width: 200px;
+}
+
+.footer-text p {
+	margin: 0;
+	background: #282923;
+	padding: 15px 0px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+}
+
+.footer-text a {
+	color: tan;
+}
